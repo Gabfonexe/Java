@@ -28,5 +28,24 @@ public class Operadores {
 
     System.out.println(concatenacao);
 
+    int a, b;
+
+    a = 5;
+    b = 6;
+
+    String resultado = "";
+
+    String resultadoo = a==b ? "Verdadeiro" : "Falso"; //estrutura condicional ternária
+
+    if(a==b){
+      resultado = "Verdadeiro";
+    }
+    else {
+      resultado = "falso";
+    }
+    
+    System.out.println(resultado);
+    System.out.println(resultadoo);
+
   }
 }
