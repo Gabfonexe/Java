@@ -1,9 +1,9 @@
 ## Informações Importantes:
 
 ```
-O Conteúdo desse repositório foi baseado no curso de Java do professor Nelio alves.
-Participei do curso e utilizei o vscode para guardar tudo o que aprendi e me ajudar 
-a me guiar durante o estudo da linguagem Java
+O Conteúdo desse repositório foi baseado nos meus estudos da linguagem Java.
+Utilizei o vscode para guardar tudo o que aprendi e me ajudar 
+a me guiar durante o estudo da linguagem.
 
 Modifiquei e adicionei Informações na maioria dos códigos, para ficar mais fácil de 
 entender os conceitos das aulas e exercícios.
