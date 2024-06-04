@@ -47,5 +47,14 @@ public class Operadores {
     System.out.println(resultado);
     System.out.println(resultadoo);
 
+
+    /* Para comparar valores de objetos, utiliza-se o método .equals()
+     * Para comparar valores númericos, utiliza-se ==, >=, <= ...
+     */
+    String nomeUm = "Gabriel";
+    String nomeDois = new String("Gabriel");
+
+    System.out.println(nomeUm == nomeDois); // forma errada
+    System.out.println(nomeUm.equals(nomeDois)); // forma certa
   }
 }
