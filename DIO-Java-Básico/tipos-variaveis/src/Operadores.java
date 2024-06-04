@@ -28,6 +28,7 @@ public class Operadores {
 
     System.out.println(concatenacao);
 
+    // -----------------------------------------------------------------------
     int a, b;
 
     a = 5;
@@ -47,6 +48,8 @@ public class Operadores {
     System.out.println(resultado);
     System.out.println(resultadoo);
 
+    // -----------------------------------------------------------------------
+
 
     /* Para comparar valores de objetos, utiliza-se o método .equals()
      * Para comparar valores númericos, utiliza-se ==, >=, <= ...
@@ -56,5 +59,22 @@ public class Operadores {
 
     System.out.println(nomeUm == nomeDois); // forma errada
     System.out.println(nomeUm.equals(nomeDois)); // forma certa
+
+    // -----------------------------------------------------------------------
+
+
+    boolean condicao1 = true;
+    boolean condicao2 = false;
+
+    if(condicao1 && (7>4)){
+      System.out.println("As duas condições são Verdadeiras");
+    }
+
+    if (condicao1 || condicao2){
+      System.out.println("Uma das condições é verdadeira");
+    }
+
+    System.out.println("fim");
+
   }
 }
