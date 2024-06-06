@@ -11,12 +11,13 @@ public class While {
       if(valorDoce > mesada){
         valorDoce = mesada;
       }
-
-      System.out.println("Doce do valor: " + valorDoce + " Adicionado no carrinho");
+      
+      System.out.printf("Doce do valor: %.2f Adicionado no carrinho \n", valorDoce);
+      //System.out.println("Doce do valor: " + valorDoce + " Adicionado no carrinho");
       mesada =  mesada - valorDoce;
     }
     
-    System.out.println("Mesada:" + mesada);
+    System.out.println("Mesada: " + mesada);
     System.out.println("Joãozinho gastou toda a sua mesada em doces");
   }
   
