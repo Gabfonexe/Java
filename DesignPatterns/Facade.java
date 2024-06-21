@@ -6,7 +6,7 @@ public class Facade {
     String cidade = CepApi.getInstancia().recuperarCidade(cep);
     String estado = CepApi.getInstancia().recuperarEstado(cep);
 
-    
+    CrmService.gravarCliente(nome, cep, cidade, estado);
   }
   
 }
