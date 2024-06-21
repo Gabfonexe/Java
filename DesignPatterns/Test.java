@@ -8,7 +8,4 @@ public class Test {
     lazyHolder = SingletonLazyHolder.getInstancia();
     System.out.println(lazyHolder); 
   }
-
-
-  
 }
