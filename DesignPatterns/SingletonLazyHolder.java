@@ -7,7 +7,6 @@ package DesignPatterns;
  * @author falvojr
  */
 
-
 public class SingletonLazyHolder {
 
   private static class InstanceHolder{
