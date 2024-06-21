@@ -25,5 +25,6 @@ public class Test {
     robo.mover();
     robo.setComportamento(agressivo);
     robo.mover();
+    
   }
 }
