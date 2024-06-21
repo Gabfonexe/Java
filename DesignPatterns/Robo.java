@@ -10,6 +10,5 @@ public class Robo {
 
   public void mover(){
     comportamento.mover();
-    
   }
 }
