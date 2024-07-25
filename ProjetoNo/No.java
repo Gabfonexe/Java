@@ -1,29 +1,29 @@
 package Java.ProjetoNo;
 
 // NÓ - entendendo o conceito de encadiamento de nós no java
-public class No {
+public class No<T> { // Definindo como Generics (T)
 
-  private String conteudo;
-  private No proximNo;
+  private T conteudo;
+  private No<T> proximNo;
 
-  public No(String conteudo){
+  public No(T conteudo){
     this.proximNo = null; // -> o último nó sempre aponta para o Null
     this.conteudo = conteudo;
   }
 
-  public String getConteudo() {
+  public T getConteudo() {
     return conteudo;
   }
 
-  public void setConteudo(String conteudo) {
+  public void setConteudo(T conteudo) {
     this.conteudo = conteudo;
   }
 
-  public No getProximNo() {
+  public No<T> getProximNo() {
     return proximNo;
   }
 
-  public void setProximNo(No proximNo) {
+  public void setProximNo(No<T> proximNo) {
     this.proximNo = proximNo;
   }
 
